@@ -1,0 +1,230 @@
+
+/* ----  FIXED HEADER ----- */
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    height: 69px;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 50;
+}
+
+.flex-container img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 50px;
+    padding: 10px;   
+    background-repeat: no-repeat;
+}
+
+.flex-container a {
+    margin-right: auto;
+}
+
+.flex-container li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.flex-container a {
+    color: seashell;
+}
+
+.flex-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+/* ----  OUR MISSION ----- */
+
+.main {
+    background-image: url("Images/img-mission-background.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   width: auto;
+   height: 700px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+}
+
+.main ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main li {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    list-style-type: none;
+    width: 100%;
+}
+
+.main h1, h4 {
+    padding: 5px;
+    margin: 0px;
+}
+
+
+
+/* ----  TEA OF THE MONTH ----- */
+
+.teas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.teas h2, h4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.teas ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+.teas li {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+    padding: 0px;
+}
+
+.teas img {
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.teas h5 {
+    margin: 5px;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.teas figure {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
+/* ----  LOCATIONS ----- */
+
+.locations h2 {
+    text-align: center;
+    opacity: 1;
+    margin: 0px 0px 15px 0px;  
+}
+
+.locations {
+    background-image: url("Images/img-locations-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locations ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.locations li {
+    text-align: center;
+    list-style-type: none;
+    background-color: black;
+    width: 300px;
+    margin: 0px 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   opacity: 1;
+}
+
+
+/* ----  CONTACT ----- */
+
+.contact {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* ----  FOOTER ----- */
+
+.footer {
+    background-color: black;
+    margin: 20px;
+    text-align: left;
+}
+
+
+@media only screen and (min-resolution: 150dpi) {
+    
+  }
+  
+  @media only screen and (max-width: 480px) {
+    nav .box {
+       display: none;
+   }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    nav .box {
+        display: none;
+    }
+  }
+  
